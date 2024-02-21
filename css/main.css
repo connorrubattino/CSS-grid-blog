@@ -40,7 +40,6 @@ body {
 .nav-links > a {
     color: white;
     text-decoration: none;
-
 }
 
 .nav-links > a:hover {
@@ -50,8 +49,7 @@ body {
 
 .prof-pic {
     grid-area: prof-pic;
-    align-self: center;
-    
+    align-self: center; 
 } 
 
 .img-container {
