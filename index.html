@@ -11,7 +11,7 @@
     <!-- create div container of our css grid -->
     <div class="grid-container">
         <!-- create the grid items(aka direct children of grid container) -->
-        <div class="nav area-border">
+        <div class="nav">
             <!-- div.nav-links will be a flexbox -->
             <div class="nav-links">
                 <a href="#">Home</a>
@@ -21,12 +21,26 @@
                 <a href="#">Sign Up</a>
             </div>
         </div>
-        <div class="prof-pic area-border">
+        <div class="prof-pic">
             <div class="img-container">
                 <img src="https://picsum.photos/500" alt="prof pic" id="prof-img">
             </div>
         </div>
-        <div class="prof-info area-border">Prof info goes here</div>
+        <div class="prof-info">
+            <!-- create flexbox for the info -->
+            <div class="info-container">
+                <!-- name header -->
+                <h2>Connor Rubattino</h2>
+                <!-- about me -- option+z to word wrap-->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, ratione. Ad laborum nostrum deserunt consequuntur dolore, atque architecto adipisci commodi nam nihil aperiam. Dolore officiis voluptatum repellat magni reprehenderit? Tempore!</p>
+                <!-- contact info -->
+                <div class="contact">
+                    <p><b>Email: </b>connorrubattino@gmail.com</p>
+                    <p><b>Phone: </b>(707)293-8101</p>
+                    <p><b>Github: </b>https://github.com/connorrubattino</p>
+                </div>
+            </div>
+        </div>
         <div class="posts area-border">Posts go here</div>
     </div>
 
