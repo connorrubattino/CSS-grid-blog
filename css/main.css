@@ -88,3 +88,31 @@ body {
 .posts {
     grid-area: posts;
 }
+
+.post-card {
+    background-color: lightgrey;
+    padding: 1em;
+    border: 2px solid cornflowerblue;
+    border-radius: 25px;
+    margin-bottom: 1vh;
+}
+
+.post-card > p {
+    margin: 2vh 0;
+}
+
+.post-links {
+    /* width: 100%;  --- do not need width because it is not a flex child*/
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.post-links > a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.post-links > a:hover {
+    text-decoration: underline;
+    color: salmon;
+}
